@@ -2,7 +2,7 @@
 #question:
 #a robat located at a m×n grid, and the robat can only move the right or down for one step each time
 #calculate how many paths do we have to get to the point (m-1,n-1)
-
+#Q62
 
 #f(i,j)represent the number of paths to point(i,j),and we can have this equation: f(i,j)=f(i-1,j)+f(i,j-1)
 #boundary condition:
