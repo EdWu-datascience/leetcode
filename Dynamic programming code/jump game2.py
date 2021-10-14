@@ -1,5 +1,6 @@
 
 #只需要比较第一次跳跃的最远距离是否大于跳跃过程中遇到的点的最远距离。
+#Q55
 class Solution:
     def jump(self, nums: List[int]) -> int:
         #motherfucker 
