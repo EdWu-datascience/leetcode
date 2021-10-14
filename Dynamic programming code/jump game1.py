@@ -5,7 +5,7 @@
 
 #判断你是否能够到达最后一个下标。
 #比如nums = [3,2,1,0,4]无论怎样，总会到达下标为 3 的位置。但该下标的最大跳跃长度是 0 ， 所以永远不可能到达最后一个下标。return false
-
+#Q55
 class Solution:
     def canJump(self, nums: List[int]) -> bool:
         #判断前一次可以跳的范围是否包含末端点，
